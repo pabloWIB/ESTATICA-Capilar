@@ -1,7 +1,7 @@
 :root {
   --jdgm-primary-color: #399;
   --jdgm-secondary-color: rgba(51, 153, 153, 0.1);
-  --jdgm-star-color: #d0df00;
+  --jdgm-star-color: #ef8521;
   --jdgm-write-review-text-color: white;
   --jdgm-write-review-bg-color: #339999;
   --jdgm-paginate-color: #399;
@@ -31,7 +31,7 @@
 
   --gradient-base-background-1: #eff0f5;
   --gradient-base-background-2: #ffffff;
-  --gradient-base-accent-1: #d0df00;
+  --gradient-base-accent-1: #ef8521;
   --gradient-base-accent-2: #2c2a29;
 
   --media-padding: px;
@@ -168,4 +168,24 @@ body {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
+}
+
+.organiceSmile{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.organiceSmile >:nth-child(2){
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.organiceSmile >:nth-child(2) img{
+  width: 100%;
+  max-width: 50px;
+  border-radius: 50%;
+
 }
