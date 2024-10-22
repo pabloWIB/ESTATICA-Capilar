@@ -192,10 +192,15 @@ body {
 
 .happyPeople{
   width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(5%);
 }
 
 .happyPeople img{
-  width: 100%;
+  width: 90%;
   max-width: 400px;
 }
 
