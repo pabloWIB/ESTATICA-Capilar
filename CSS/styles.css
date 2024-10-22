@@ -198,3 +198,14 @@ body {
   width: 100%;
   max-width: 400px;
 }
+
+.adjustFlow{
+  display: flex; flex-direction: row; align-items: stretch; position: relative;
+}
+
+@media (max-width: 500px){
+  .adjustFlow{
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
