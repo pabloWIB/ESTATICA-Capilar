@@ -190,6 +190,11 @@ body {
 
 }
 
+.organiceText{
+  font-size: 35px;
+  margin: 4rem 0rem;
+}
+
 .happyPeople{
   width: 90%;
   display: flex;
@@ -201,7 +206,7 @@ body {
 
 .happyPeople img{
   width: 90%;
-  max-width: 400px;
+  max-width: 900px;
 }
 
 .adjustFlow{
@@ -213,4 +218,18 @@ body {
     display: flex;
     flex-flow: column wrap;
   }
+}
+
+.organiceInPop{
+  display: flex;
+  place-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.organiceInPop img{
+  width: 90%;
+  max-width: 500px;
+  
 }
