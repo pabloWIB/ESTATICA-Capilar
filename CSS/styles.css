@@ -230,6 +230,29 @@ body {
 
 .organiceInPop img{
   width: 90%;
-  max-width: 500px;
-  
+  max-width: 500px; 
+}
+
+@media (max-width: 550px){
+  .defineFlex{
+  }
+  .defineFlex >div >img{
+    max-width: 170px;
+  }
+}
+
+@media (max-width: 390px){
+  .defineFlex{
+  }
+  .defineFlex >div >img{
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 340px){
+  .defineFlex{
+  }
+  .defineFlex >div >img{
+    max-width: 110px;
+  }
 }
